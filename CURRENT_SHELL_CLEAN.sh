@@ -30,3 +30,4 @@ echo -e "$RESULT5" > /tmp/bigbigmoney.tmp
 RESULT6=`head -1 /tmp/bigbigmoney.tmp | awk '{ print $1 }'`
 RESULT7=`sed "s/$RESULT6//g" /tmp/bigbigmoney.tmp`
 echo -e ${YELLOW}${RESULT6}${NC}${RESULT7}${LIGHTBLUE}${RESULT4}${NC}
+
